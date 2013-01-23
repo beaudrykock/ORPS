@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ORPS</string>
+    <string name="main_title">OPower: Rock Paper Scissors</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="button_play">Play</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_back_to_main">Back</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="lorem_ipsum">Test</string>
+    <color name="white">#FFFFFF</color>
+    <string name="your_score_col">YOU: W1</string>
+    <string name="computer_score_col">COMPUTER: W1</string>
+    <color name="opower_blue">#3E8CCA</color>
+    <color name="diff_color_amateur">#1f2464</color>
+    <color name="diff_color_enthusiast">#3f1f64</color>
+    <color name="diff_color_semipro">#651f5c</color>
+    <color name="diff_color_pro">#6e222c</color>
+    <color name="transparent_white">#00000000</color>
+
+</resources>

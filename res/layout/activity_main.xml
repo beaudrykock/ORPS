@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="@string/main_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/white"
+	    android:orientation="horizontal" >
+
+	    <EditText
+	        android:id="@+id/et_playerName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_marginTop="5dp"
+	        android:hint="Enter player name"
+	        android:inputType="textPersonName" >
+	
+	        <requestFocus />
+	    </EditText>
+	</LinearLayout>
+	
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:layout_marginTop="25dp">
+
+                <ImageButton
+                    android:id="@+id/ib_decreaseDiff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginLeft="75dp"
+                    android:src="@drawable/decrease_btn" />
+
+                <TextView
+                    android:id="@+id/difficultyLevelLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:paddingLeft="10dp"
+                    android:text="Difficulty"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageButton
+                    android:id="@+id/ib_increaseDiff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginRight="75dp"
+                    android:src="@drawable/increase_btn" />
+
+        </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ib_play"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/play_btn_selector" />
+
+    <ListView
+        android:id="@+id/gamePlayList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="hello" />
+
+</LinearLayout>
